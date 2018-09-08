@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+        <!--<GridView-->
+            <!--android:id="@+id/multi_photo_grid"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="160dp"-->
+            <!--android:gravity="center"-->
+            <!--android:horizontalSpacing="3dp"-->
+            <!--android:listSelector="#00000000"-->
+            <!--android:numColumns="2"-->
+            <!--android:stretchMode="columnWidth"-->
+            <!--android:verticalSpacing="3dp" />-->
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerciew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:layout_margin="3dp"
+        android:descendantFocusability="beforeDescendants"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        ></android.support.v7.widget.RecyclerView>
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/id_save"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/login_btn"
+        android:text="保存榫卯数据"
+        android:onClick="OnSave1"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/login_btn"
+        android:id="@+id/tool"
+        android:text="刀具信息"
+        android:onClick="to_tool"
+        android:textColor="@android:color/white"
+       />
+
+</LinearLayout>
+</ScrollView>

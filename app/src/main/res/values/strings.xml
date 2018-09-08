@@ -1,0 +1,29 @@
+<resources>
+    <string name="hello">Hello World, TestActivity!</string>
+    <string name="app_name">离线编程</string>
+    <string name="change_local">切换到本地</string>
+    <string name="change_remote">切换到FTP</string>
+    <string name="download">下载</string>
+    <string name="uploading">上传</string>
+    <string name="close">断开</string>
+    <string name="scheme">请选择方案</string>
+    <string name="login">登入</string>
+    <string name="et_password_hint">密码</string>
+    <string name="et_account_hint">账号</string>
+    <string name="register">新用户</string>
+    <string name="cbsave">记住账号密码</string>
+    <string name="Mtype_xwz">小五轴</string>
+    <string name="et_rabbetname_hint">请输入榫头名称便于查找</string>
+    <string-array name="customer_info">
+        <item>客户名称:</item>
+        <item>联系方式:</item>
+        <item>客户住址:</item>
+        <item>备注信息:</item>
+    </string-array>
+    <string-array name="customer_info_hint">
+        <item>必填且不可为空格</item>
+        <item>选填</item>
+        <item>选填</item>
+        <item>选填</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:layout_weight="5"
+        android:id="@+id/c_name"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:text="榫卯名称："
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_weight="4"
+        android:background="@drawable/bg_edittext_selector"
+        android:inputType="numberSigned|numberDecimal"
+        android:id="@+id/c_name_et"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="50"
+        android:textColor="#707070"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="10sp"
+        android:textColor="#FF737373"
+        android:text="mm"/>
+</LinearLayout>

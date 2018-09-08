@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/To_tool_file"-->
+            <!--android:title="导入机床文件"-->
+            <!--android:icon="@mipmap/import_icon"/>-->
+        <!--<item-->
+            <!--android:id="@+id/New_tool_file"-->
+            <!--android:title="新增机床文件"-->
+            <!--android:icon="@mipmap/new_icon"/>-->
+        <!--<item-->
+            <!--android:id="@+id/sxyl"-->
+            <!--android:title="机床偏置信息 "-->
+            <!--android:icon="@mipmap/jcpzinformation_icon"/>-->
+        <!--<item-->
+            <!--android:id="@+id/G_code"-->
+            <!--android:title="G代码信息"-->
+            <!--android:icon="@mipmap/gcode_icon"-->
+            <!--/>-->
+        <!--<item-->
+            <!--android:id="@+id/file_h_t"-->
+            <!--android:title="修改文件头尾"-->
+            <!--android:icon="@mipmap/alter_icon"/>-->
+        <item
+            android:id="@+id/open_ftp2"
+            android:title="打开ftp"
+            android:icon="@mipmap/ftp_icon"
+            />
+        <item
+            android:id="@+id/zxing"
+            android:title="二维码生成"
+            android:icon="@mipmap/qrcode_icon"/>
+        <item
+            android:id="@+id/about"
+            android:title="关于软件"
+            android:icon="@mipmap/about_icon"/>
+    </group>
+
+</menu>

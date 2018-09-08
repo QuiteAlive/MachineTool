@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="QM_Server_DB" ></dbname>
+    <version value="1" ></version>
+    <list>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_SunMaoInfo"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_SunMao_Path_R"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_ABaxisVal"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_A_User"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_SunMaoPathParameterVal"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_SunMao_Porperty_R"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_MachineFile1"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_MachineFileTopBotton"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_UserLatheCode"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_SaveFtp"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_KnifePoint"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_Knifeproperty_path_R"></mapping>
+        <mapping class="cn.qzd.machinetool.LitepalBase.QM_MT_A_User_Role_Auth"></mapping>
+
+
+
+    </list>
+
+</litepal>

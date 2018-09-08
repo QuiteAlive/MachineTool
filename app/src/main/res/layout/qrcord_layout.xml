@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <cn.qzd.machinetool.helper.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_below="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/bitmap_image"/>
+    <RadioGroup
+        android:layout_below="@+id/bitmap_image"
+        android:id="@+id/RG_rs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <RadioButton
+            android:id="@+id/sunmao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1"/>
+        <RadioButton
+            android:id="@+id/sunmao2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+        <RadioButton
+            android:id="@+id/sunmao3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_below="@+id/RG_rs1"
+        android:id="@+id/RG_rs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <RadioButton
+            android:id="@+id/qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="二维码"/>
+        <RadioButton
+            android:id="@+id/barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="条形码"/>
+    </RadioGroup>
+<EditText
+    android:id="@+id/et_content"
+    android:layout_below="@+id/RG_rs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="输入识别内容"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/login_btn"
+        android:id="@+id/sava"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="保存"
+        android:layout_below="@+id/et_content"
+        />
+</RelativeLayout>
+    </ScrollView>
+    <!--
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入文件名"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_url"
+                android:text="生成二维码"/>
+            <Button
+                android:id="@+id/btu_barcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生成条形码"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/qr_save"
+                android:text="保存"/>-->
+  <!--&lt;!&ndash;  </LinearLayout>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_two_code"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_centerInParent="true" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_bar_code"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:layout_centerInParent="true" />-->
+
+<!--</LinearLayout>-->

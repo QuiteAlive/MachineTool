@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="机床文件是否选择正确！"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FF0000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文件头尾是否已经选择或填写！"
+        android:textColor="#FF0000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据输入是否正确！"
+        android:textColor="#FF0000"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/spinner_jcwj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:prompt="@string/scheme"
+        android:spinnerMode="dialog"></Spinner>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sure_nc"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_btn"
+        android:text="生成NC程序"
+        android:onClick="save_nc"/>
+
+</LinearLayout>

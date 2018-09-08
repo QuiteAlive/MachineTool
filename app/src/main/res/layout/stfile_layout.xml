@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <cn.qzd.machinetool.helper.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="请输入榫头名称"/>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swip_refresh"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1">
+    </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+<!--    <Button
+        android:id="@+id/stf_zs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直榫" />
+
+    <Button
+        android:id="@+id/stf_xs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="斜榫" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stf_zjs"
+        android:text="棕角榫"/>
+
+    <Button
+        android:id="@+id/stf_pjs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="飘间榫" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二维码"
+        android:id="@+id/erwm"/>!-->
+
+</LinearLayout>
